@@ -5,6 +5,7 @@ import ReviewForm from './ReviewForm';
 
 
 export default function Movies() {
+<<<<<<< HEAD
 
   const movieCards = MovieArray.map(movie => (
     <div className="col-lg-3 col-md-6 col-sm-12 p-4" key={movie.id}>
@@ -18,6 +19,22 @@ export default function Movies() {
             <li className="fw-bolder lead">Average Rating: {movie.rating}</li>
           </ul>
           <hr />
+=======
+   
+    const movieCards = MovieArray.map(movie => (
+      <div className="col-lg-3 col-md-5 col-sm-12" key={movie.id}>
+        <div className="card shadow">
+          <img src={movie.posterURL} alt={movie.title} />
+          <div className="card-body h-100">
+            <ul className="list-unstyled">
+              <li><h3 className="text-center">{movie.title}</h3></li>
+              <li className="fw-bold text-center">Released: {movie.releaseDate}</li>
+              <li className="lead">{movie.overview}</li>
+              <li className="fw-bolder lead">Average Rating: {movie.rating}</li>
+            </ul>
+            <hr />
+          </div>
+>>>>>>> 80cb90e (uppdate)
         </div>
       </div>
     </div>

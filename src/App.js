@@ -5,16 +5,17 @@ import Movies from "./Movies"
 import ReviewForm from './ReviewForm';
 import Title from './Title';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ReviewForm from './ReviewForm';
 
 
 function App() {
 
   return (
     <>
-      <div className='container-fluid backImage'>
-        <Title />
-        <Movies><ReviewForm /></Movies>
-      </div>
+    <div className='container-fluid backImage'>
+    <Title />
+    <Movies />
+    </div>
     </>
   );
 }
