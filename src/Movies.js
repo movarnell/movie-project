@@ -1,5 +1,6 @@
 import React from 'react';
 import MovieArray from './MovieArray';
+import ReviewForm from './ReviewForm';
 
 
 
@@ -18,6 +19,7 @@ export default function Movies() {
             <li className="fw-bolder lead">Average Rating: {movie.rating}</li>
           </ul>
           <hr />
+          <ReviewForm/>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ import Movies from "./Movies"
 import ReviewForm from './ReviewForm';
 import Title from './Title';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './popcorn.svg';
+import './popcorn.png';
 
 
 function App() {
@@ -14,7 +14,9 @@ function App() {
     <>
     <div className='container-fluid backImage'>
     <Title />
-    <Movies><ReviewForm/></Movies>
+    <Movies>
+    <ReviewForm />
+    </Movies>
     </div>
     </>
   );

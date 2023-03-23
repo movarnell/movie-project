@@ -45,3 +45,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+
+.titleImage {
+  width: 250px;
+}

@@ -1,8 +1,9 @@
 import { useState } from "react";
 
+
 let nextReviewID = 2;
 
-export default function ReviewForm(props) {
+export default function ReviewForm() {
   const [reviewValue, setReviewValue] = useState("");
   const [reviewList, setReviewList] = useState([]);
 
