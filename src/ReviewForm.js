@@ -17,7 +17,9 @@ export default function ReviewForm(props) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    addReview({ review: reviewValue });
+    addReview({ 
+        key: nextReviewID,
+        review: reviewValue });
     setReviewValue("");
   };
 

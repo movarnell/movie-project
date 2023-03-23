@@ -1,12 +1,14 @@
 const movieArray = [
     { 
-          title: "Cocaine Bear", 
+        id: 0,  
+        title: "Cocaine Bear", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//gOnmaxHo0412UVr1QM5Nekv1xPi.jpg", 
           releaseDate: "2023-02-22", 
           overview: "Inspired by a true story, an oddball group of cops, criminals, tourists and teens converge in a Georgia forest where a 500-pound black bear goes on a murderous rampage after unintentionally ingesting cocaine.", 
           rating: "6.6",
        }, 
        { 
+        id: 1,
           title: "The Whale", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//jQ0gylJMxWSL490sy0RrPj1Lj7e.jpg", 
           releaseDate: "2022-12-09", 
@@ -14,12 +16,15 @@ const movieArray = [
           rating: "8.1", 
       }, 
       { 
+        id: 2,
           title: "Everything Everywhere All at Once", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg", 
           releaseDate: "2022-03-24", 
           overview: "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.", 
           rating: "7.9", 
-      }, { 
+      }, 
+      { 
+        id: 3,
           title: "A Man Called Otto", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//130H1gap9lFfiTF9iDrqNIkFvC9.jpg", 
           releaseDate: "2022-12-28", 
@@ -27,6 +32,7 @@ const movieArray = [
           rating: "7.9",
        }, 
        { 
+        id: 4,
           title: "M3GAN", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//d9nBoowhjiiYc4FBNtQkPY7c11H.jpg", 
           releaseDate: "2022-12-28", 
@@ -34,6 +40,7 @@ const movieArray = [
           rating: 7.4, 
       }, 
       {
+        id: 5,
           title: "Scream VI", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//aePBN8ffLCHoUXp8lkA5P29CXdx.jpg", 
           releaseDate: "2023-03-08", 
@@ -41,6 +48,7 @@ const movieArray = [
           rating: "7.4", 
       }, 
       { 
+        id: 6,
           title: "Smile", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg", 
           releaseDate: "2022-09-23", 
@@ -48,6 +56,7 @@ const movieArray = [
           rating: "6.8", 
       }, 
       { 
+        id: 7,
           title: "80 for Brady", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//jixBLmH4gQuTKTenZr89egvqZbW.jpg", 
           releaseDate: "2023-02-03", 
@@ -55,6 +64,7 @@ const movieArray = [
           rating: "7.2", 
       }, 
       { 
+        id: 7,
           title: "Top Gun: Maverick", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//62HCnUTziyWcpDaBO2i1DX17ljH.jpg", 
           releaseDate: "2022-05-24", 
@@ -62,6 +72,7 @@ const movieArray = [
           rating: "8.3", 
       }, 
       { 
+        id: 8,
           title: "Elvis", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//qBOKWqAFbveZ4ryjJJwbie6tXkQ.jpg", 
           releaseDate: "2022-06-22", 
@@ -69,6 +80,7 @@ const movieArray = [
           rating: "7.7",
        }, 
        { 
+        id: 9,
           title: "Black Panther: Wakanda Forever", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//sv1xJUazXeYqALzczSZ3O6nkH75.jpg", 
           releaseDate: "2022-11-09", 
@@ -76,6 +88,7 @@ const movieArray = [
           rating: "7.3", 
       }, 
       { 
+        id: 10,
           title: "Oppenheimer", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//bAFmcrCpXsJis5q0aaXvCz3dTiX.jpg", 
           releaseDate: "2023-07-19", 
@@ -83,12 +96,15 @@ const movieArray = [
           rating: "0", 
       }, 
       { 
+        id: 11,
           title: "Mission: Impossible - Dead Reckoning Part One", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//pZCa8WgnP0AgVHsFjvuUDhcNjOJ.jpg", 
           releaseDate: "2023-07-12", 
           overview: "The seventh installment of the Mission: Impossible franchise.",
-          rating: "0", }, 
+          rating: "0", 
+        }, 
           { 
+            id: 12,
               title: "Spider-Man: Across the Spider-Verse", 
               posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//zknrogDlwcmaz3yHkA3yEhy005t.jpg", 
               releaseDate: "2023-05-31", 
@@ -96,6 +112,7 @@ const movieArray = [
               rating: 0, 
           }, 
           { 
+            id: 13,
               title: "Indiana Jones and the Dial of Destiny", 
               posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//y4MBS0SKE0pHR57vfYBxGhrkfcv.jpg", 
               releaseDate: "2023-06-28", 
@@ -103,6 +120,7 @@ const movieArray = [
               rating: "0", 
           }, 
           { 
+            id: 14,
               title: "Joker: Folie à Deux", 
               posterURL: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/78d92c45-e7d3-4e39-943e-6a11a8c60778/dfamc79-ec20ff3b-c786-4116-95df-37d3ca59ae21.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc4ZDkyYzQ1LWU3ZDMtNGUzOS05NDNlLTZhMTFhOGM2MDc3OFwvZGZhbWM3OS1lYzIwZmYzYi1jNzg2LTQxMTYtOTVkZi0zN2QzY2E1OWFlMjEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.OHf_2rkP4WxxW0VU2LzYxJuqrik670WP9uUBM_HtVtc", 
               releaseDate: "2024-10-02", 
@@ -110,6 +128,7 @@ const movieArray = [
               rating: "0", 
           }, 
           { 
+            id: 15,
               title: "Guardians of the Galaxy Volume 3", 
               posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//4zdyTce32M3uKU8gS31d4ZsmNhQ.jpg", 
               releaseDate: "2023-05-03", 
@@ -117,6 +136,7 @@ const movieArray = [
               rating: "0", 
           }, 
           { 
+            id: 16,
               title: "The Little Mermaid", 
               posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//ym1dxyOk4jFcSl4Q2zmRrA5BEEN.jpg", 
               releaseDate: "2023-05-24", 
@@ -124,6 +144,7 @@ const movieArray = [
               rating: "0", 
           }, 
           { 
+            id: 17,
                   title: "Barbie", 
                   posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//xMVsBwvvw1iKhC97rtI5mB91C0O.jpg", 
                   releaseDate: "2023-07-19", 

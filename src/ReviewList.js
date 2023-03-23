@@ -8,7 +8,7 @@ export default function ReviewList(props) {
   return (
     <>
       {props.reviewList.map((review) => (
-        <reviewDetails
+        <ReviewDetails
           key={review.id}
           review={review}
         />

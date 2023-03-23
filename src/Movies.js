@@ -5,7 +5,7 @@ import ReviewForm from './ReviewForm';
 
 
 export default function Movies() {
-    
+   
     const movieCards = MovieArray.map(movie => (
       <div className="col-lg-4 col-md-5 col-sm-12" key={movie.id}>
         <div className="card shadow">

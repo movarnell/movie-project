@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+backImage{
+  background-color: #61dafb;
+  background-image: url("./felix-mooneeram-evlkOfkQ5rE-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
