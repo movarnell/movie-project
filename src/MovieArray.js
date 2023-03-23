@@ -64,7 +64,7 @@ const movieArray = [
           rating: "7.2", 
       }, 
       { 
-        id: 7,
+        id: 8,
           title: "Top Gun: Maverick", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//62HCnUTziyWcpDaBO2i1DX17ljH.jpg", 
           releaseDate: "2022-05-24", 
@@ -72,7 +72,7 @@ const movieArray = [
           rating: "8.3", 
       }, 
       { 
-        id: 8,
+        id: 9,
           title: "Elvis", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//qBOKWqAFbveZ4ryjJJwbie6tXkQ.jpg", 
           releaseDate: "2022-06-22", 
@@ -80,7 +80,7 @@ const movieArray = [
           rating: "7.7",
        }, 
        { 
-        id: 9,
+        id: 10,
           title: "Black Panther: Wakanda Forever", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//sv1xJUazXeYqALzczSZ3O6nkH75.jpg", 
           releaseDate: "2022-11-09", 
@@ -88,7 +88,7 @@ const movieArray = [
           rating: "7.3", 
       }, 
       { 
-        id: 10,
+        id: 11,
           title: "Oppenheimer", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//bAFmcrCpXsJis5q0aaXvCz3dTiX.jpg", 
           releaseDate: "2023-07-19", 
@@ -96,7 +96,7 @@ const movieArray = [
           rating: "0", 
       }, 
       { 
-        id: 11,
+        id: 12,
           title: "Mission: Impossible - Dead Reckoning Part One", 
           posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//pZCa8WgnP0AgVHsFjvuUDhcNjOJ.jpg", 
           releaseDate: "2023-07-12", 
@@ -104,7 +104,7 @@ const movieArray = [
           rating: "0", 
         }, 
           { 
-            id: 12,
+            id: 13,
               title: "Spider-Man: Across the Spider-Verse", 
               posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//zknrogDlwcmaz3yHkA3yEhy005t.jpg", 
               releaseDate: "2023-05-31", 
@@ -112,7 +112,7 @@ const movieArray = [
               rating: 0, 
           }, 
           { 
-            id: 13,
+            id: 14,
               title: "Indiana Jones and the Dial of Destiny", 
               posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//y4MBS0SKE0pHR57vfYBxGhrkfcv.jpg", 
               releaseDate: "2023-06-28", 
@@ -120,7 +120,7 @@ const movieArray = [
               rating: "0", 
           }, 
           { 
-            id: 14,
+            id: 15,
               title: "Joker: Folie à Deux", 
               posterURL: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/78d92c45-e7d3-4e39-943e-6a11a8c60778/dfamc79-ec20ff3b-c786-4116-95df-37d3ca59ae21.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc4ZDkyYzQ1LWU3ZDMtNGUzOS05NDNlLTZhMTFhOGM2MDc3OFwvZGZhbWM3OS1lYzIwZmYzYi1jNzg2LTQxMTYtOTVkZi0zN2QzY2E1OWFlMjEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.OHf_2rkP4WxxW0VU2LzYxJuqrik670WP9uUBM_HtVtc", 
               releaseDate: "2024-10-02", 
@@ -128,7 +128,7 @@ const movieArray = [
               rating: "0", 
           }, 
           { 
-            id: 15,
+            id: 16,
               title: "Guardians of the Galaxy Volume 3", 
               posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//4zdyTce32M3uKU8gS31d4ZsmNhQ.jpg", 
               releaseDate: "2023-05-03", 
@@ -136,7 +136,7 @@ const movieArray = [
               rating: "0", 
           }, 
           { 
-            id: 16,
+            id: 17,
               title: "The Little Mermaid", 
               posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//ym1dxyOk4jFcSl4Q2zmRrA5BEEN.jpg", 
               releaseDate: "2023-05-24", 
@@ -144,7 +144,7 @@ const movieArray = [
               rating: "0", 
           }, 
           { 
-            id: 17,
+            id: 18,
                   title: "Barbie", 
                   posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//xMVsBwvvw1iKhC97rtI5mB91C0O.jpg", 
                   releaseDate: "2023-07-19", 
