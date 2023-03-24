@@ -10,6 +10,7 @@ export default function ReviewList(props) {
       {props.reviewList.map((review) => (
         <ReviewDetails
           key={review.id}
+          date={review.date}
           review={review}
         />
       ))}

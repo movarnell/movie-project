@@ -10,7 +10,9 @@ export default function Reviews({ reviewList, movieId }) {
       {reviews.length === 0 && <p>No reviews yet.</p>}
       {reviews.map(review => (
         <div key={review.id}>
-          <p>{review.review}</p>
+          <p><span className='smallDate'>{review.date}</span><br/>
+          <span className='userName'>{review.user}</span><br/>
+          {review.review}</p>
         </div>
       ))}
     </div>
