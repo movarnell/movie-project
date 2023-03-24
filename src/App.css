@@ -38,6 +38,11 @@
   }
 }
 
+.cardContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .backImage {
   background-color: #61dafb;
   background-image: url("./felix-mooneeram-evlkOfkQ5rE-unsplash.jpg");
@@ -48,4 +53,15 @@
 
 .titleImage {
   width: 250px;
+}
+
+.titleText {
+  text-align: center;
+  color: white;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.cardWidth {
+  min-width: 100px;
+  max-width:400px;
 }

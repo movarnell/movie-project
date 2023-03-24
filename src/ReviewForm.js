@@ -1,33 +1,26 @@
 import { useState } from "react";
 
 
-let nextReviewID = 2;
 
-export default function ReviewForm() {
+export default function ReviewForm({ movie, addReview }) {
   const [reviewValue, setReviewValue] = useState("");
-  const [reviewList, setReviewList] = useState([]);
 
-  const addReview = (newReviewData) => {
-    const newReview = {
-      id: nextReviewID++,
-      ...newReviewData
-    };
-    setReviewList(reviewList.concat(newReview));
-  };
-
+  
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    addReview({ 
-        key: nextReviewID,
-        review: reviewValue });
+    const reviewData = { 
+      review: reviewValue, 
+      movieId:movie.id
+    }
+    addReview(reviewData);
     setReviewValue("");
   };
 
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <label htmlFor="review-input" className="form-label">
-       Share Your Review
+        Share Your Review
       </label>
       <input
         type="text"
