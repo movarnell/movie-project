@@ -13,14 +13,14 @@ export default function Movies() {
     const newReview = {
       id: nextReviewID++,
       ...newReviewData,
-      
+
     };
     setReviewList(reviewList.concat(newReview));
   };
 
-// Maps out the MovieArray for each card
+  // Maps out the MovieArray for each card
   const movieCards = MovieArray.map(movie => (
-    <div className="col cardContainer pb-5 " key={movie.id}>
+    <div className="col cardContainer pb-4 " key={movie.id}>
       <div className="card shadow cardWidth">
         <img src={movie.posterURL} alt={movie.title} />
         <div className="card-body  h-100">
@@ -28,11 +28,11 @@ export default function Movies() {
             <li><h3 className="text-center">{movie.title}</h3></li>
             <li className="fw-bold text-center">Released: {movie.releaseDate}</li>
             <li className="lead">{movie.overview}</li>
-            <li className="fw-bolder lead">Average Rating: {movie.rating}</li>
+            <li className="fw-bolder lead">Average Rating on MovieDB.org: {movie.rating}</li>
           </ul>
           <hr />
           {/* Adds the review form component and assigns it to the movie it is on */}
-          <ReviewForm movie={movie} addReview={addReview}/>
+          <ReviewForm movie={movie} addReview={addReview} />
           {/* renders the review list in its current state for each movie as the map works through them */}
           <Reviews reviewList={reviewList} movieId={movie.id} />
         </div>

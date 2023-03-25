@@ -1,14 +1,20 @@
 import { useState } from "react";
+import Star from './Star';
 
 export default function ReviewForm({ movie, addReview }) {
   const [reviewValue, setReviewValue] = useState("");
   const [userValue, setUserValue] = useState("");
+
+
 
   let newDate = new Date().toLocaleDateString('en-us', {
     weekday: "long",
     year: "numeric",
     month: "short",
     day: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    Hour12: true,
   });
 
   const handleSubmit = (event) => {
@@ -26,6 +32,7 @@ export default function ReviewForm({ movie, addReview }) {
 
   return (
     <form onSubmit={handleSubmit}>
+      <Star />
       <label htmlFor="user-input" className="form-label">
         What's Your Name?
       </label>

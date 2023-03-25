@@ -52,25 +52,65 @@
 }
 
 .titleImage {
-  width: 250px;
+  max-width: 1000px;
+  min-width: 400px;
 }
 
-.titleText {
-  text-align: center;
+.starList {
+  display: inline;
+  list-style: none;
+}
+
+.introFont {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.starContainer {
+  padding-bottom: 20px;
+}
+
+.starSet {
+  width: 48px;
+  height: 48px;
+}
+
+a:link {
+  text-decoration: none;
   color: white;
-font-family:Arial, Helvetica, sans-serif;
+
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+
+.introContainer {
+  font-size: x-large;
+}
+
+.movieDB {
+  max-width: 270px;
+  padding-top: 15px;
 }
 
 .cardWidth {
   min-width: 100px;
-  max-width:400px;
+  max-width: 400px;
 }
 
-.userName{
+.userName {
   font-weight: bolder;
 }
 
-.smallDate{
+.smallDate {
   font-size: x-small;
   font-weight: bolder;
 }
