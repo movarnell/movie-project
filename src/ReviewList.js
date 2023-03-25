@@ -1,10 +1,9 @@
-import ReviewDetails from "./ReviewDetails";
+import ReviewDetails from './ReviewDetails';
 
+// Define the ReviewList component.
 export default function ReviewList(props) {
-  if (props.reviewList.length === 0) {
-    return <p className="text-muted">No Reviews Posted --BE THE FIRST</p>;
-  }
 
+  // Return a list of ReviewDetails components.
   return (
     <>
       {props.reviewList.map((review) => (
@@ -17,3 +16,6 @@ export default function ReviewList(props) {
     </>
   );
 }
+
+// This component renders a list of ReviewDetails components.
+// The ReviewDetails component displays information about a specific review.
