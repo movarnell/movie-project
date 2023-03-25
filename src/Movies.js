@@ -4,7 +4,7 @@ import MovieArray from './MovieArray';
 import ReviewForm from './ReviewForm';
 import Reviews from './Reviews';
 
-let nextReviewID = 2;
+let nextReviewID = 1;
 
 export default function Movies() {
   // activates the useState for the Review List
@@ -34,7 +34,7 @@ export default function Movies() {
           {/* Adds the review form component and assigns it to the movie it is on */}
           <ReviewForm movie={movie} addReview={addReview} />
           {/* renders the review list in its current state for each movie as the map works through them */}
-          <Reviews reviewList={reviewList} movieId={movie.id} />
+          <Reviews reviewList={reviewList} movieId={movie.id}/>
         </div>
       </div>
     </div>
