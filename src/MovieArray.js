@@ -38,7 +38,7 @@ const movieArray = [
     posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//d9nBoowhjiiYc4FBNtQkPY7c11H.jpg",
     releaseDate: "2022-12-28",
     overview: "A brilliant toy company roboticist uses artificial intelligence to develop M3GAN, a life-like doll programmed to emotionally bond with her newly orphaned niece. But when the doll's programming works too well, she becomes overprotective of her new friend with terrifying results.",
-    rating: 7.4,
+    rating: "7.4",
   },
   {
     id: 5,
@@ -110,7 +110,7 @@ const movieArray = [
     posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//zknrogDlwcmaz3yHkA3yEhy005t.jpg",
     releaseDate: "2023-05-31",
     overview: "After reuniting with Gwen Stacy, Miles Morales — Brooklyn's full-time, friendly neighborhood Spider-Man — is catapulted across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must redefine what it means to be a hero so he can save the people he loves most.",
-    rating: 0,
+    rating: "0",
   },
   {
     id: 14,
