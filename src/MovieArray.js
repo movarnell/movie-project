@@ -69,7 +69,7 @@ const movieArray = [
     title: "Top Gun: Maverick",
     posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
     releaseDate: "2022-05-24",
-    overview: "After more than thirty years of service as one of the Navy\'s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
+    overview: "After more than thirty years of service as one of the Navy's top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
     rating: "8.3",
   },
   {
@@ -85,7 +85,7 @@ const movieArray = [
     title: "Black Panther: Wakanda Forever",
     posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
     releaseDate: "2022-11-09",
-    overview: "Queen Ramonda, Shuri, M\'Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T\'Challa\'s death. As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
+    overview: "Queen Ramonda, Shuri, M'Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T'Challa's death. As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
     rating: "7.3",
   },
   {
@@ -93,7 +93,7 @@ const movieArray = [
     title: "Oppenheimer",
     posterURL: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2//bAFmcrCpXsJis5q0aaXvCz3dTiX.jpg",
     releaseDate: "2023-07-19",
-    overview: "The story of J. Robert Oppenheimer\'s role in the development of the atomic bomb during World War II.",
+    overview: "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
     rating: "0",
   },
   {
